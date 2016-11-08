@@ -1,1 +1,37 @@
 /* YOUR STYLES */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #6d6e71;
+}
+/*Header*/
+.cd-header {
+    background: #a10022;
+}
+
+/*Content Containers*/
+.cd-gallery li.mix {
+    background: white;
+    
+}
+
+
+.cd-tab-filter-wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+
+/*Grid View*/
+.grid li.mix {
+    
+}
+
+/*List View*/
+.list li.mix {
+   width: 100%;
+}
+
+.list li.mix p {
+    display: none;
+}

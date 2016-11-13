@@ -8,13 +8,35 @@ body {
 .cd-header {
     background: #a10022;
 }
-
+.cd-header h1 {
+    line-height: 50px;
+    padding: 35px;
+}
 /*Content Containers*/
+
 .cd-gallery li.mix {
     background: white;
+    vertical-align: top;
     
 }
+.cd-gallery li.mix p{
+    margin: 10px;
+    padding: 2px;
+    line-height: 1.25;
+    text-align: left;
+}
 
+.cd-gallery li.mix h1, h3 {
+    background:  #a10022;
+    padding: 6px;
+    color: white;  
+}
+
+.cd-gallery li.mix h2 {
+    color: #a10022;
+    padding: 6px;
+    
+}
 
 .cd-tab-filter-wrapper {
     background-color: #ffffff;
@@ -22,6 +44,28 @@ body {
     z-index: 1;
 }
 
+.cd-filter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    font-color: #FFFFFF;
+    z-index: 2;
+}
+.cd-tab-filter a.selected {
+    background: transparent;
+    color: #000000;
+    box-shadow: inset 0 -2px 0 #41307c;
+}
+.cd-filter:hover .cd-close:hover {
+    background: red;
+}
+.cd-filter .cd-close {
+    background: red;
+}
 /*Grid View*/
 .grid li.mix {
     

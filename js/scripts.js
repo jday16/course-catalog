@@ -26,12 +26,3 @@ $('.cd-gallery').addClass('list');
 });
 
 
-//clear filter
-
-$(document).on('click', '#clear-filter', function(){       
-    $('input[data-type="search"]').val('');
-    $('input[data-type="search"]').trigger("keyup");
-});
-
-$('#form')[0].reset(); 
-$('#form').get(0).reset();

@@ -5,6 +5,7 @@ body {
     background: #6d6e71;
 }
 /*Header*/
+
 .cd-header {
     background: #a10022;
 }
@@ -14,11 +15,13 @@ body {
 }
 /*Content Containers*/
 
+
 .cd-gallery li.mix {
     background: white;
     vertical-align: top;
-    
 }
+
+
 .cd-gallery li.mix p{
     margin: 10px;
     padding: 2px;
